@@ -19,22 +19,32 @@ struct HomeScreenView: View {
                     .opacity(0.1)
                     .rotationEffect(.degrees(-90))
                 
-                VStack {
+                VStack(alignment: .leading) {
                     // navigationLink это типа segueShow,
                     // такой же принцип
                     NavigationLink("Arrivals") {
-                        FlightBoardView(boardName: "Arrivals")
+                        FlightBoardView(
+                            boardName: "Arrivals",
+                            flightInfo: flightInfo.filter { $0.direction == .arrival }
+                        )
                     }
                     NavigationLink("Departures") {
-                        FlightBoardView(boardName: "Departures")
+                        FlightBoardView(
+                            boardName: "Departures",
+                            flightInfo: flightInfo.filter { $0.direction == .departure }
+                        )
                     }
                     NavigationLink("Flight Timeline") {
                         TimeLineView(flights: flightInfo)
                     }
+                    
+                    Spacer()
                 }
+                .font(.title)
+                .padding()
             }
+            .navigationTitle("Airport")
         }
-       
     }
 }
 
