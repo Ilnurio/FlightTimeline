@@ -8,25 +8,29 @@
 import SwiftUI
 
 struct HomeScreenView: View {
-//    private let flightInfo = FlightInformation.generateFlight()
+    private let flightInfo = FlightInformation.generateFlights()
     
     var body: some View {
-        ZStack {
-            Image(systemName: "airplane")
-                .resizable()
-                .frame(width: 250, height: 250)
-                .opacity(0.1)
-                .rotationEffect(.degrees(-90))
-            
-            VStack {
-                NavigationLink("Arrivals") {
-                    FlightBoardView(boardName: "Arrivals")
-                }
-                NavigationLink("Departures") {
-                    FlightBoardView(boardName: "Departures")
-                }
-                NavigationLink("Flight Timeline") {
-                    TimelineView("FlightTimeline")
+        NavigationStack {
+            ZStack {
+                Image(systemName: "airplane")
+                    .resizable()
+                    .frame(width: 250, height: 250)
+                    .opacity(0.1)
+                    .rotationEffect(.degrees(-90))
+                
+                VStack {
+                    // navigationLink это типа segueShow,
+                    // такой же принцип
+                    NavigationLink("Arrivals") {
+                        FlightBoardView(boardName: "Arrivals")
+                    }
+                    NavigationLink("Departures") {
+                        FlightBoardView(boardName: "Departures")
+                    }
+                    NavigationLink("Flight Timeline") {
+                        TimeLineView(flights: flightInfo)
+                    }
                 }
             }
         }

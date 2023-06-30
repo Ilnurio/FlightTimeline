@@ -20,6 +20,7 @@
 		46FABFF82A4C65B100DE7522 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FABFF32A4C65B100DE7522 /* Timeline.swift */; };
 		46FABFF92A4C65B100DE7522 /* TimelinePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FABFF52A4C65B100DE7522 /* TimelinePoint.swift */; };
 		46FABFFA2A4C65B100DE7522 /* TimelineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46FABFF62A4C65B100DE7522 /* TimelineTableViewCell.xib */; };
+		46FABFFE2A4C786100DE7522 /* TimeLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FABFFD2A4C786100DE7522 /* TimeLineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		46FABFF42A4C65B100DE7522 /* TimelineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineTableViewCell.h; sourceTree = "<group>"; };
 		46FABFF52A4C65B100DE7522 /* TimelinePoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelinePoint.swift; sourceTree = "<group>"; };
 		46FABFF62A4C65B100DE7522 /* TimelineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineTableViewCell.xib; sourceTree = "<group>"; };
+		46FABFFD2A4C786100DE7522 /* TimeLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				46BDC4682A436D3400E50B7E /* UserProfileView.swift */,
 				46BDC4662A436C5A00E50B7E /* HomeScreenView.swift */,
 				46BDC45A2A436C3800E50B7E /* ContentView.swift */,
+				46FABFFD2A4C786100DE7522 /* TimeLineView.swift */,
 				46BDC46A2A436E4400E50B7E /* FlightBoardView.swift */,
 			);
 			path = Views;
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46FABFFE2A4C786100DE7522 /* TimeLineView.swift in Sources */,
 				46FABFF82A4C65B100DE7522 /* Timeline.swift in Sources */,
 				46FABFF72A4C65B100DE7522 /* TimelineTableViewCell.swift in Sources */,
 				46FABFF02A4C62D900DE7522 /* FlightInformation.swift in Sources */,

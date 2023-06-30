@@ -18,6 +18,6 @@ struct FlightBoardView: View {
 
 struct FlightBoardView_Previews: PreviewProvider {
     static var previews: some View {
-        FlightBoardView(boardName: "FlightBoard")
+        FlightBoardView(boardName: "Flight Board")
     }
 }
