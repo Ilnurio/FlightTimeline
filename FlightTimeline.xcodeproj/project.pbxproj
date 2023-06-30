@@ -14,6 +14,8 @@
 		46BDC4672A436C5A00E50B7E /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDC4662A436C5A00E50B7E /* HomeScreenView.swift */; };
 		46BDC4692A436D3400E50B7E /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDC4682A436D3400E50B7E /* UserProfileView.swift */; };
 		46BDC46B2A436E4400E50B7E /* FlightBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDC46A2A436E4400E50B7E /* FlightBoardView.swift */; };
+		46C993342A4F19BF009DFE68 /* FlightRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C993332A4F19BF009DFE68 /* FlightRowView.swift */; };
+		46C993362A4F1D4E009DFE68 /* FlightDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C993352A4F1D4E009DFE68 /* FlightDetailsView.swift */; };
 		46FABFEE2A4C62B900DE7522 /* FlightHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FABFED2A4C62B900DE7522 /* FlightHistory.swift */; };
 		46FABFF02A4C62D900DE7522 /* FlightInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FABFEF2A4C62D900DE7522 /* FlightInformation.swift */; };
 		46FABFF72A4C65B100DE7522 /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FABFF22A4C65B100DE7522 /* TimelineTableViewCell.swift */; };
@@ -32,6 +34,8 @@
 		46BDC4662A436C5A00E50B7E /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		46BDC4682A436D3400E50B7E /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		46BDC46A2A436E4400E50B7E /* FlightBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightBoardView.swift; sourceTree = "<group>"; };
+		46C993332A4F19BF009DFE68 /* FlightRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRowView.swift; sourceTree = "<group>"; };
+		46C993352A4F1D4E009DFE68 /* FlightDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsView.swift; sourceTree = "<group>"; };
 		46FABFED2A4C62B900DE7522 /* FlightHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightHistory.swift; sourceTree = "<group>"; };
 		46FABFEF2A4C62D900DE7522 /* FlightInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightInformation.swift; sourceTree = "<group>"; };
 		46FABFF22A4C65B100DE7522 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewCell.swift; sourceTree = "<group>"; };
@@ -95,9 +99,11 @@
 			children = (
 				46BDC4682A436D3400E50B7E /* UserProfileView.swift */,
 				46BDC4662A436C5A00E50B7E /* HomeScreenView.swift */,
+				46C993332A4F19BF009DFE68 /* FlightRowView.swift */,
 				46BDC45A2A436C3800E50B7E /* ContentView.swift */,
 				46FABFFD2A4C786100DE7522 /* TimeLineView.swift */,
 				46BDC46A2A436E4400E50B7E /* FlightBoardView.swift */,
+				46C993352A4F1D4E009DFE68 /* FlightDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +202,7 @@
 			files = (
 				46FABFFE2A4C786100DE7522 /* TimeLineView.swift in Sources */,
 				46FABFF82A4C65B100DE7522 /* Timeline.swift in Sources */,
+				46C993362A4F1D4E009DFE68 /* FlightDetailsView.swift in Sources */,
 				46FABFF72A4C65B100DE7522 /* TimelineTableViewCell.swift in Sources */,
 				46FABFF02A4C62D900DE7522 /* FlightInformation.swift in Sources */,
 				46BDC4672A436C5A00E50B7E /* HomeScreenView.swift in Sources */,
@@ -205,6 +212,7 @@
 				46FABFEE2A4C62B900DE7522 /* FlightHistory.swift in Sources */,
 				46BDC4692A436D3400E50B7E /* UserProfileView.swift in Sources */,
 				46FABFF92A4C65B100DE7522 /* TimelinePoint.swift in Sources */,
+				46C993342A4F19BF009DFE68 /* FlightRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
